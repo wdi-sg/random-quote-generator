@@ -1,23 +1,17 @@
-//fetch using post request
-//h1 random quote
 $(function() {
-  let myHeaders = new Headers()
-
-  myHeaders.append(
-    "X-Mashape-Key",
-    "6qClgHZ6abmshFPEOwtnIL5Jbn7tp1bbv0Ijsn9JINTyyizALz"
-  )
   let myKey = {
     method: "POST",
-    headers: myHeaders
+    headers: {
+      "X-Mashape-Key": "6qClgHZ6abmshFPEOwtnIL5Jbn7tp1bbv0Ijsn9JINTyyizALz"
+    }
   }
+
   let randomQuote = fetch(
     "https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous&count=1",
     myKey
   )
 
   const updateRandomQuote = data => {
-    console.log(data)
     $h2 = $("h2")
     $div = $("div")
     $author = $("<p>")
