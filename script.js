@@ -4,19 +4,26 @@ $(function () {
     method: 'POST',
     headers: { 'X-Mashape-Key': 'xONQa6hJi8mshG1BCCGIKmeiCnjNp1UOu2Bjsn7BkDSLsaR4Ua' }
   }
+  // api call
   var apiCall = fetch(url, init)
+
+  // functions
+  var returnResponse = response => {
+    console.log('response received')
+    return response.json()
+  }
 
   var updateRandomQuote = data => {
     var $h2 = $('h2')
     $h2.text(data.quote)
   }
 
-  apiCall.then((response) => {
-    console.log('response received')
-    return response.json()
-  })
-  .then(updateRandomQuote)
-  .catch((error) => {
+  var logError = error => {
     console.log(error)
-  })
+  }
+
+  // logic
+  apiCall.then(returnResponse)
+  .then(updateRandomQuote)
+  .catch(logError)
 })
