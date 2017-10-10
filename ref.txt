@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 1257
+Content-Type: application/json
+Date: Mon, 09 Oct 2017 08:16:43 GMT
+Server: Mashape/5.0.6
+
+
+[
+  {
+    "quote": "Go ahead, make my day.",
+    "author": "Sudden Impact",
+    "category": "Movies"
+  },
+  {
+    "quote": "All right, Mr. DeMille, I'm ready for my close-up.",
+    "author": "Sunset Blvd.",
+    "category": "Movies"
+  },
+  {
+    "quote": "Show me the money!",
+    "author": "Jerry Maguire",
+    "category": "Movies"
+  },
+  {
+    "quote": "If you build it, he will come.",
+    "author": "Field of Dreams",
+    "category": "Movies"
+  },
+  {
+    "quote": "I see dead people.",
+    "author": "The Sixth Sense",
+    "category": "Movies"
+  },
