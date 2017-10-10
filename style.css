@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+
+#quote {
+  font-family: cursive;
+}
+
+#author {
+  font-family: fantasy;
+}
+
+#category {
+  font-family: inherit;
+}
