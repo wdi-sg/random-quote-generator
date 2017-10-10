@@ -16,7 +16,7 @@ $(function() {
     .then((response) => {
     return response.json()
     })
-
+    
     .then(randomQuotes)
 
   function randomQuotes(data){
