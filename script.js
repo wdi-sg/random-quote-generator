@@ -45,7 +45,6 @@ $(function() {
     console.log(data)
     $h2 = $("h2")
     $h2.text(data.quote)
-
   }
 
   randomQuote
