@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+}
+.main{
+  font-family: 'Rye', cursive;
+  font-size: 60px;
+  color: black;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff
+}
+
+.container{
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  color: #382070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  transition: 2s;
+}
+.quoteButton{
+  width: 200px;
+  height: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  border: 2px 2px 2px 2px;
+  border-color: black;
+}
